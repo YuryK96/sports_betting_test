@@ -39,11 +39,11 @@ const Details = (props) => {
 
 
             <div className={DetailsPageCss.allBet}>
-                <div className={DetailsPageCss.bet}><label htmlFor="option1" >На победу хозяев</label> <input onChange={() => checkType("На победу хозяев")} name="home" onClick={buttonCheck} id="option1" type="radio" /> <p>Коофициент: {(Math.random() * 20).toFixed(2)} %</p></div>
+                <div className={DetailsPageCss.bet}><label htmlFor="option1" >На победу хозяев</label> <input onChange={() => checkType("На победу хозяев")} name="home" onClick={buttonCheck} id="option1" type="radio" /> <p>Коэффициент: {(Math.random() * 20).toFixed(2)} %</p></div>
 
-                <div className={DetailsPageCss.bet}> <label htmlFor="option2">На победу гостей</label> <input onChange={() => checkType("На победу гостей")} name="home" onClick={buttonCheck} id="option2" type="radio" /><p>Коофициент: {(Math.random() * 20).toFixed(2)} %</p></div>
+                <div className={DetailsPageCss.bet}> <label htmlFor="option2">На победу гостей</label> <input onChange={() => checkType("На победу гостей")} name="home" onClick={buttonCheck} id="option2" type="radio" /><p>Коэффициент: {(Math.random() * 20).toFixed(2)} %</p></div>
 
-                <div className={DetailsPageCss.bet}><label htmlFor="option3">На ничью</label> <input onChange={() => checkType("На ничью")} name="home" onClick={buttonCheck} id="option3" type="radio" /><p>Коофициент: {(Math.random() * 20).toFixed(2)} %</p></div>
+                <div className={DetailsPageCss.bet}><label htmlFor="option3">На ничью</label> <input onChange={() => checkType("На ничью")} name="home" onClick={buttonCheck} id="option3" type="radio" /><p>Коэффициент: {(Math.random() * 20).toFixed(2)} %</p></div>
             </div>
 
             <div className= {DetailsPageCss.allBtn}>
