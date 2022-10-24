@@ -1,13 +1,12 @@
 .Page {
-
-    width: fit-content;
-    margin: 0 auto;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .Page ul li {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .Page h1 {
-    text-align: center;
+  text-align: center;
 }

@@ -1,83 +1,71 @@
 .allBtn {
-    width: fit-content;
-    margin: 10px auto;
-    text-align: center;
-   
+  width: fit-content;
+  margin: 10px auto;
+  text-align: center;
 }
 
 .linkButton {
-    
-    width: 112px;
-    height: 22px;
-    display: block;
-   background: rgb(125, 249, 125);
-    color: black;
-    text-decoration: none;
-    border: 1px solid green;
-    margin-bottom: 10px;
-    padding: 0 5px;
+  width: 112px;
+  height: 22px;
+  display: block;
+  background: rgb(125, 249, 125);
+  color: black;
+  text-decoration: none;
+  border: 1px solid green;
+  margin-bottom: 10px;
+  padding: 0 5px;
 }
 
 .backButton {
-    background: rgb(207, 198, 198);
-    text-decoration: none;
-    border: 1px solid gray;
-    padding: 0 5px;
-
+  background: rgb(207, 198, 198);
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 0 5px;
 }
 
 .linkDisabled {
-    pointer-events: none; 
-    cursor: default;
-    color: #888;
-    background: rgb(207, 198, 198);
-    text-decoration: none;
-   
-    
-    }
+  pointer-events: none;
+  cursor: default;
+  color: #888;
+  background: rgb(207, 198, 198);
+  text-decoration: none;
+}
 
+.allBet {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-    .allBet {
-        width: 50vw;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-       
-    }
+.bet {
+  text-align: center;
+  padding: 0 10px;
+}
+.bet label {
+  font-weight: 600;
+}
+.bet p {
+  margin-top: 0;
+}
 
-    .bet {
-        text-align: center;
-        padding: 0 10px;
-    }
-    .bet label {
-        font-weight: 600;
-        
-    }
-    .bet p {
-        margin-top: 0;
-        
-    }
+.gameEvent {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
 
-    .gameEvent {
-        display: block;
-        width: fit-content;
-        margin: 0 auto;
-        text-align: center;
-    }
+.gameEvent p {
+  font-size: 24px;
+}
 
-    .gameEvent p {
-        font-size: 24px;
-    }
-
-
-    @media  screen and (max-width: 275px) {
-    
-        .allBet {
-            width: 50vw;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-        }
-    
-    }
+@media screen and (max-width: 275px) {
+  .allBet {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
