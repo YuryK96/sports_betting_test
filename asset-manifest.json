@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sports_betting_test-React-/static/css/main.cc5784de.css",
+    "main.js": "/sports_betting_test-React-/static/js/main.c651062f.js",
+    "static/js/787.abe4c6e4.chunk.js": "/sports_betting_test-React-/static/js/787.abe4c6e4.chunk.js",
+    "index.html": "/sports_betting_test-React-/index.html",
+    "main.cc5784de.css.map": "/sports_betting_test-React-/static/css/main.cc5784de.css.map",
+    "main.c651062f.js.map": "/sports_betting_test-React-/static/js/main.c651062f.js.map",
+    "787.abe4c6e4.chunk.js.map": "/sports_betting_test-React-/static/js/787.abe4c6e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc5784de.css",
+    "static/js/main.c651062f.js"
+  ]
+}
