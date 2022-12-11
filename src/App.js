@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import Details from "./components/DetailsPage/DetailsPage";
 
@@ -59,12 +59,12 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename="/">
         <Routes>
           <Route path="/" element={<HomePage games={games} />} />
           <Route path="/Details" element={<Details bet={makeABet} />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
